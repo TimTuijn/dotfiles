@@ -1,0 +1,9 @@
+# This is a configuration file for lazygit, but only when using it for yadm
+# There are some issues with the default <c-a> keybinding.
+# That's why we rewrite it here...
+# https://github.com/jesseduffield/lazygit/discussions/1201#discussioncomment-2437060
+
+keybinding:
+  files:
+    toggleStagedAll: '' # avoid "stage/unstage all" since it hangs lazygit, cause I guess it tries to list all files
+
