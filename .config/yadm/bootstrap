@@ -5,5 +5,10 @@ cd "$HOME"
 echo "Init submodules"
 yadm submodule update --recursive --init
 
+# Essential packages to install
+sudo apt install findutils ripgrep openssl zip wl-clipboard curl fd-find tmux
+
+# TODO: neovim + lazygit
+
 echo "Installing tmux plugins"
 ~/.config/tmux/plugins/tpm/bin/install_plugins
