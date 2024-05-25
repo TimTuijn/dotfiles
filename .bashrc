@@ -142,7 +142,7 @@ function git() {
 }
 
 alias t="tmux"
-alias yadmlazy='lazygit --use-config-file "$HOME/.config/yadm/lazygit.yml" --work-tree ~ --git-dir ~/.local/share/yadm/repo.git'
+alias yadmlazy='lazygit --use-config-file "$HOME/.config/yadm/lazygit.yml,$HOME/.config/lazygit/config.yml" --work-tree ~ --git-dir ~/.local/share/yadm/repo.git'
 
 source_if_file_exists "~/.fzf.bash"
 
