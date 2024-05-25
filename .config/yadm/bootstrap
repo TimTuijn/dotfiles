@@ -5,3 +5,5 @@ cd "$HOME"
 echo "Init submodules"
 yadm submodule update --recursive --init
 
+echo "Installing tmux plugins"
+~/.config/tmux/plugins/tpm/bin/install_plugins
